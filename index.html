@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="tudo">
+        <div id="nome">Nome: </div>
+        <div><input type="text" id="nometxt" oninput=salvarnome()></div>
+
+
+        <div id="endereco">Endereço: </div>
+        <div><input type="text" id="enderecotxt" oninput=salvarendereco()></div>
+
+
+        <div id="cep">CEP: </div>
+        <div><input type="text" id="cepnum" oninput="mascara_cep()"></div>
+
+
+        <div id="cpf">CPF: </div>
+        <div><input type="text" id="cpfnum" oninput="mascara_cpf()"></div>
+
+
+        <div id="telefone">Telefone: </div>
+        <div><input type="tel" id="telefonenum" oninput="mascara_telefone()" ></div>
+
+
+        <div id="cnpj">CNPJ: </div>
+        <div><input type="text" id="cnpjnum"  oninput="mascara_cnpj()"></div>
+
+
+        <div id="codigo">Código: </div>
+        <div><input type="text" id="codigonum" oninput="mascara_codigo()"></div>
+        <div id="btnenviar">
+            <button type="submit"><a href="segpagina.html">ENVIAR</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
